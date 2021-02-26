@@ -17,7 +17,7 @@ def main(screen):
     cast = {}
 
     x = int(constants.MAX_X / 2)
-    y = int(constants.MAX_Y - 1)
+    y = int(constants.MAX_Y - 2)
     cast["paddle"] = []
     for i in range(constants.PADDLE_LENGTH):
         position = Point(x + i, y)
