@@ -3,12 +3,14 @@ from game import constants
 from game.action import Action
 from game.point import Point
 
-
 class HandleCollisionsAction(Action):
     """A code template for handling collisions. The responsibility of this class of objects is to update the game state when actors collide.
     
     Stereotype:
         Controller
+
+    Attributes:
+        mistake_counter: tracks how many times the ball has collided with the bottom barrier.
     """
     def __init__(self):
         self.mistake_counter = 0    

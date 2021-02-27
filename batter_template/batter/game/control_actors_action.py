@@ -30,10 +30,6 @@ class ControlActorsAction(Action):
         #since the only thing the user controls is the paddle object, that
         #is the only thing this class is used for.
         direction = self._input_service.get_direction()
-        # The following was an attempt to stop the paddle from moving off
-        # screen so it wouldn't screen wrap. It made no difference, so it
-        # is now commented out.
-
-        # if (cast["paddle"][0].get_velocity().get_x() != 1 and cast["paddle"][-1].get_velocity().get_x() != constants.MAX_X - 1) or direction.get_x() == 0:
+        
         for paddle in cast["paddle"]:
             paddle.set_velocity(direction)
