@@ -40,4 +40,4 @@ root                    (project root folder)
 ## Authors
 ---
 * Ben Davis, Robbie Swanson, Moses Diaz, Tyler Shellman
-* she17007@byui.edu
+* she17007@byui.edu, robdawg1@byui.edu
